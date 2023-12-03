@@ -1,0 +1,19 @@
+/* @media screen and (max-width:768px) {} */
+/* @media screen and (max-width:768px) {} */
+
+@media screen and (max-width:576px) {
+
+    .i-am-0 {
+        line-height: 36px;
+        font-size: 30px;
+        font-family: var(--Montserrat);
+        font-weight: 200;
+    }
+
+    .i-am-0 span {
+        line-height: 36px;
+        font-size: 30px;
+        font-family: var(--Montserrat);
+        font-weight: 200;
+    }
+}

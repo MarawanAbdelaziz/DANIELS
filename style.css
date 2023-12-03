@@ -1,0 +1,599 @@
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+
+    --Montserrat: 'Montserrat', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.pb-70 {
+    padding-bottom: 70px !important;
+}
+
+.bg-light {
+    background-color: #F7F7F7 !important;
+}
+
+/* ------------------------------------ nav ------------------------------------- */
+
+
+
+
+.daniels-a {
+    line-height: 25.7143px;
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.for-another-a {
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+/* ------------------------------------ header ------------------------------------- */
+
+header {
+    background-image: url("img/bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-opacity-65 {
+    background: rgba(0, 0, 0, 0.65);
+
+}
+
+.hello-title {
+    line-height: 55px;
+    font-family: var(--Montserrat);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.i-am-0 {
+    line-height: 72px;
+    font-family: var(--Montserrat);
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.i-am {
+    line-height: 72px;
+    font-family: var(--Montserrat);
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.social-icons {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.bg-blue-color {
+    background-color: #CDE1F8;
+}
+
+/* ------------------------------------ sec-navbar ------------------------------------- */
+
+
+header:hover~div .sec-navbar {
+    display: none;
+}
+
+/* ------------------------------------ about ------------------------------------- */
+
+
+
+.fixed-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.hero-img {
+    width: 100%;
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-img:after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+
+.content {
+    width: 90%;
+}
+
+.content h3 {
+    line-height: 33px;
+    font-family: var(--Montserrat);
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0px 0px 5px;
+}
+
+.sub-title {
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 20px;
+}
+
+.content p {
+    line-height: 24px;
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 0px 5px;
+}
+
+.skills {
+    margin: 30px 0px 50px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.skills-progress {
+    width: 100%;
+    padding: 1px 10px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    position: relative;
+}
+
+h6 {
+    line-height: 14.3px;
+    font-family: var(--Montserrat);
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin-top: 6px;
+}
+
+.skills-progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    color: white;
+    line-height: 20px;
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.skills-progress span .span-1 {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    left: 94%;
+    line-height: 30px;
+}
+
+.skills-progress span .span-2 {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    left: 93%;
+    line-height: 30px;
+}
+
+.skills-progress span .span-3 {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    left: 93.5%;
+    line-height: 30px;
+}
+
+.buton {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.buton:hover {
+    background: #1c1c1c;
+    color: #eee;
+}
+
+.buton-bg {
+    background: #1c1c1c;
+    color: #eee;
+}
+
+.buton-bg:hover {
+    background: #eee;
+    color: #1c1c1c;
+}
+
+/* ------------------------------------ Services ------------------------------------- */
+
+
+
+.fs-services {
+    font-family: var(--Montserrat);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    position: relative;
+}
+
+
+
+.icon-services {
+    font-size: 1.5rem;
+    list-style: none;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 0px auto;
+    border-width: 20rem;
+    background-color: #F4F4F4;
+    color: black;
+    transition: 0.5s border, 0.5s background-color, 0.5s color;
+}
+
+
+.change-color:hover .icon-services {
+    background-color: black;
+    color: white;
+}
+
+.services-h6 {
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 19.8px;
+    margin: 0px 0px 15px;
+    color: black;
+}
+
+/* ------------------------------------ portfolio ------------------------------------- */
+
+.fs-portfolio {
+    font-family: var(--Montserrat);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    position: relative;
+}
+
+.text-span {
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.8571px;
+}
+
+.img-overlay {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    right: 20px;
+    bottom: 14px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 2;
+    transform: translateY(10px);
+}
+
+.img-overlay:hover {
+    opacity: 1;
+}
+
+.sm-titl {
+    font-family: var(--Montserrat);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13.2px;
+    margin: 0px 0px 15px;
+    color: black;
+}
+
+.icon-work {
+    font-size: 0.9rem;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    margin: 0px auto;
+    border-width: 20rem;
+    background-color: black;
+    color: white;
+    transition: 0.5s border, 0.5s background-color, 0.5s color;
+}
+
+.icon-work:hover {
+    background-color: white;
+    color: black;
+}
+
+/* .img-work  {
+    width: 100%;
+} */
+
+
+/* ------------------------------------ clients ------------------------------------- */
+.fs-clients {
+    font-family: var(--Montserrat);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    position: relative;
+}
+
+.author-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.author-p {
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #748182;
+}
+
+.author-h6 {
+    font-family: var(--Montserrat);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.6px;
+    color: #343434;
+    margin: 30px 0px 5px;
+}
+
+.author-span {
+    font-family: var(--Poppins);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17.1429px;
+    color: #888888;
+    margin: 0px 0px 30px;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #869791;
+    width: 0.62rem;
+    height: 0.62rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+}
+
+
+/* ------------------------------------ numbers ------------------------------------- */
+
+.icon-num {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.item h3 {
+    font-family: var(--Montserrat);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 33px;
+    color: #343434;
+    margin: 15px 0px 15px;
+}
+
+.item p {
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #748182;
+    margin: 0px 0px 30px;
+}
+
+/* ------------------------------------ Team ------------------------------------- */
+
+.fs-team {
+    font-family: var(--Montserrat);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    position: relative;
+}
+
+.img-team {
+    overflow: hidden;
+}
+
+.img-team img {
+    width: 100%;
+    transition: 1s transform;
+}
+
+.img-team:hover img {
+    transform: scale(1.2);
+}
+
+.img-overlay-team {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    right: 6px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: opacity 0.5s, transform 1s;
+    z-index: 2;
+
+    transform: rotateY(0deg) scale(0.5);
+}
+
+.img-team:hover .img-overlay-team {
+    opacity: 1;
+    transform: rotateY(200deg) scale(1);
+}
+
+.social-icons-team {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    background-color: black !important;
+    color: white;
+}
+
+.text-team {
+    background-color: #5D5D5D;
+}
+
+.text-team h4 {
+    font-family: var(--Montserrat);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27.5px;
+    color: white;
+    margin: 0px 0px 5px;
+}
+
+.text-team h5 {
+    font-family: var(--Montserrat);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+}
+
+
+
+/* ------------------------------------ Contact ------------------------------------- */
+
+.fs-contact {
+    font-family: var(--Montserrat);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    position: relative;
+}
+
+.icon-contact {
+    font-size: 1.5rem;
+    list-style: none;
+    width: 4rem;
+    height: 4rem;
+    margin: 0px auto;
+    border-width: 20rem;
+    background-color: #F4F4F4;
+    color: black;
+    transition: 0.5s border, 0.5s background-color, 0.5s color;
+}
+
+.change-color:hover .icon-contact {
+    background-color: black;
+    color: white;
+}
+
+
+.item-contact h6 {
+    font-family: var(--Montserrat);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.6px;
+    color: black;
+}
+
+.item-contact p {
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #748182;
+}
+
+.input-contact input {
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+.textarea-contact {
+    text-align: left;
+}
+
+
+.textarea-contact textarea {
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #F4F4F4;
+
+}
+
+.footer-text {
+    font-family: var(--Poppins);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8pxpx;
+}
+
+/* ------------------------------------ Footer ------------------------------------- */
